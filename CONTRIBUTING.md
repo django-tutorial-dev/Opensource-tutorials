@@ -5,6 +5,7 @@ Thank you for considering contributing to this repository! 🎉 This repository 
 ## Hacktoberfest Participation 🎃
 We are proudly participating in Hacktoberfest! If you are new to open source or want to contribute, you are more than welcome to join us. Follow the steps below to start contributing.
 
+## DO NOT REMOVE THE GITIGNORE,CONTRIBUTING,README & OTHER'S CONTENTS
 ### Contribution Guidelines
 
 1. **Create a Folder for Each Tutorial/Documentation**  
