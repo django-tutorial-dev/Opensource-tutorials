@@ -12,13 +12,13 @@ We are proudly participating in Hacktoberfest! If you are new to open source or 
    - Within this folder, create a `main.html` file where you will place the content for the main topic.
    
    **Example:**
-   '''
+```
 tutorials/
 └── views/
     ├── main.html  # Main topic (Views in Django)
     ├── function-based.html  # Subtopic: Function-based Views
     └── class-based.html  # Subtopic: Class-based Views
-'''
+```
 
 3. **Organizing Subtopics**  
 - If your tutorial or documentation has subtopics, create multiple `.html` files for each subtopic inside the same folder.
@@ -42,26 +42,25 @@ Create a fork of this repository by clicking the "Fork" button in the upper righ
 
 2. **Clone Your Fork**  
 Clone your fork to your local machine:
-'''git clone https://github.com/your-username/django-tutorials.git'''
+```git clone https://github.com/your-username/django-tutorials.git```
 
 3. **Create a New Branch**  
 Before you start working on your changes, create a new branch for your feature or fix:
-'''git checkout -b your-branch-name'''
+```git checkout -b your-branch-name```
 
 4. **Make Your Changes**  
 Add your folder, content, and HTML files. Make sure to follow the guidelines mentioned above.
 
 5. **Commit Your Changes**  
 After making your changes, stage them and commit:
-'''
+```
 git add .
 git commit -m "Add tutorial for <topic>"
-
-'''
+```
 
 6. **Push to GitHub**  
 Push your changes to your GitHub repository:
-''' git push origin your-branch-name '''
+``` git push origin your-branch-name ```
 
 
 7. **Create a Pull Request**  
