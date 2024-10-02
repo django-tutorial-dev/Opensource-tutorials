@@ -85,6 +85,7 @@ If you need any help while contributing, feel free to open an issue or reach out
 
 ---
 #OUR AWESOME CONTRIBUTORS
+
 <a href="https://github.com/django-tutorial-dev/Opensource-tutorials/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=django-tutorial-dev/Opensource-tutorials" />
 </a>
