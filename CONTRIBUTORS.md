@@ -12,3 +12,9 @@ We would like to thank all of the amazing people who have contributed to this pr
 ## How to Add Yourself
 
 If you contribute, please add your details to this table in a pull request following the format above.
+
+# OUR CONTRIBUTORS
+<a href="https://github.com/django-tutorial-dev/Opensource-tutorials/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=django-tutorial-dev/Opensource-tutorials" />
+</a>
+
