@@ -1,6 +1,6 @@
 # Contributing to Django Tutorials
 
-Thank you for considering contributing to this repository! 🎉 This repository contains documentation and tutorials related to Django, and all contributions will be added to the [django-tutorial.dev](https://django-tutorial.dev) website, which aims to teach Django in simple language and conceptual terms to new developers.
+Thank you for considering contributing to this repository! 🎉 This repository contains documentation and tutorials related to Django, and all projects (unique) will be added to the [django-tutorial.dev](https://django-tutorial.dev) website, which aims to teach Django in simple language and conceptual terms to new developers.
 
 ## Hacktoberfest Participation 🎃
 We are proudly participating in Hacktoberfest! If you are new to open source or want to contribute, you are more than welcome to join us. Follow the steps below to start contributing.
