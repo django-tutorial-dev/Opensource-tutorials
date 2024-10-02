@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>File Handling and I/O Operations in Django</title>
+    <link rel="stylesheet" href="styles.css"> 
+</head>
+<body>
+    <header>
+        <h1>File Handling and I/O Operations in Django</h1>
+        <p>Learn how to handle file uploads and manage files in your Django applications.</p>
+    </header>
+
+    <main>
+        <section id="introduction">
+            <h2>Introduction</h2>
+            <p>Django provides robust tools for handling file uploads and managing file data. In this tutorial, we will cover:</p>
+            <ul>
+                <li>Setting up file upload forms</li>
+                <li>Handling uploaded files in views</li>
+                <li>Storing files on the server</li>
+                <li>Best practices for file handling</li>
+            </ul>
+        </section>
+
+        <section id="setting-up">
+            <h2>Setting Up File Uploads</h2>
+            <p>To handle file uploads, you need to create a model with a FileField or ImageField.</p>
+
+            <h3>Model Example</h3>
+            
+
+            <pre><code class="language-python">
+from django.db import models
+
+class Document(models.Model):
+    title = models.CharField(max_length=100)
+    file = models.FileField(upload_to='documents/')
+            </code></pre>
+
+            <p>In this example, files will be uploaded to the 'documents/' directory.</p>
+
+            <h3>Creating a Form</h3>
+            
+            <pre><code class="language-python">
+from django import forms
+
+class DocumentForm(forms.ModelForm):
+    class Meta:
+        model = Document
+        fields = ['title', 'file']
+            </code></pre>
+
+        </section>
+
+        <section id="handling-uploads">
+            <h2>Handling File Uploads in Views</h2>
+            <p>In your views, you can handle the uploaded files as follows:</p>
+
+            <
+
+            <pre><code class="language-python">
+from django.shortcuts import render
+from .forms import DocumentForm
+
+def upload_file(request):
+    if request.method == 'POST':
+        form = DocumentForm(request.POST, request.FILES)
+        if form.is_valid():
+            form.save()
+            return redirect('success')
+    else:
+        form = DocumentForm()
+    return render(request, 'upload.html', {'form': form})
+            </code></pre>
+
+        </section>
+
+        <section id="best-practices">
+            <h2>Best Practices for File Handling</h2>
+            <ul>
+                <li>Validate file types and sizes before saving.</li>
+                <li>Use unique filenames to avoid conflicts.</li>
+                <li>Secure uploaded files by storing them outside the web root.</li>
+                <li>Regularly clean up unused files to save space.</li>
+            </ul>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Django Tutorial. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
