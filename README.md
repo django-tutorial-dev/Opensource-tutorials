@@ -84,6 +84,18 @@ Go to your fork on GitHub, and click the "New Pull Request" button. Provide a me
 If you need any help while contributing, feel free to open an issue or reach out by creating a discussion thread. We are here to support new contributors!
 
 ---
+# Contributors
+
+We would like to thank all of the amazing people who have contributed to this project! Below is a table with details of their contributions and links to their GitHub profiles.
+
+| Contributor | GitHub Profile | Contribution |
+|-------------|----------------|--------------|
+| **uozcan12** | [uozcan12](https://github.com/uozcan12) | Create Part 2 - Views.html |
+| **Ishan Kumar** |[newcodergit](https://github.com/newcodergit)|Added contents for tutorials|
+## How to Add Yourself
+
+If you contribute, please add your details to this table in a pull request following the format above.
+and remember to only add your own information at the bottom of the table and not interfare with other's data
 # OUR AWESOME CONTRIBUTORS
 
 <a href="https://github.com/django-tutorial-dev/Opensource-tutorials/graphs/contributors">
